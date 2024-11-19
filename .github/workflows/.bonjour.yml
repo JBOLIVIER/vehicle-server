@@ -12,9 +12,9 @@ jobs:
         with:
           node version: "20.17.x"
       - name: Check Node Version
-        uses: node --version
+        run: node --version
       - name: NPM CI
-        uses: npm ci
+        run: npm ci
       - name: Build App
         run: npm run build
       - name: List dist output
