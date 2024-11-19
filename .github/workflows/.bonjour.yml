@@ -12,7 +12,7 @@ jobs:
         with:
           node version: "20.17.x"
       - name: Check Node Version
-        run: node --version
+        uses: node --version
       - name: NPM CI
         uses: npm ci
       - name: Build App
