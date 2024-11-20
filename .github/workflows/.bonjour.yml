@@ -20,3 +20,5 @@ jobs:
         run: npm run build
       - name: List dist output
         run: ls dist/
+      - name: "analyse static lint"
+        run : npm run lint
