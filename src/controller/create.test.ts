@@ -2,8 +2,6 @@
 import {expect, jest, test} from '@jest/globals';
 import { Pool } from 'pg';
 import { Request, Response } from 'express';
-
-import { FakeResponse } from "../fake/response";
 import { CreateVehicleController } from "./create";
 import { Vehicle } from "../model/vehicle";
 import { VehicleStore } from "../store/vehicle";
